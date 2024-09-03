@@ -1,0 +1,6 @@
+JavaScript is a programming language
+
+Input(code) ------> Computer ------> Output
+
+
+Console is used to run code in the browser
