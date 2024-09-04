@@ -1,51 +1,3 @@
-JavaScript is a programming language
-
-Input(code) ------> Computer ------> Output
-
-
-Console is used to run code in the browser
-
-
-
-*********Variables************
-
-Variables are container in datatypes are saved
-
-Datatypes are of different types of data which can be stored in the variables. 
-
-Primitive                             Non-Primitive
-
-number (int, float)                         Objects -> Collection of values
-boolean                         
-Undefined
-Null
-BigInt
-Symbol
-string
-
-
-
-Variables are case sensitive.
-Only letters, digits, ' _ ' and ' $ ' are allowed to use in variable name.
-Only a letter, ' _ ' and ' $ ' can be used as 1st character while giving a variable name.
-Keywords cannot be used as variable name.
-eg.console, break, switch, etc.
-
-Generally, camelCase is used to give names to variables
-
-
-Defining a variable
-
-var: Variable can be re-declared and updated. A global scope variable.
-
-let: Variable can-not be re-declared but can be updated. A block scope variable.
-
-const: Variable can-not be re-declared or updated. A block scope variable.
-
-
-
-
-*****************************Operators & Condinational Statements***********************
 // This is how comments are written
 //This is a comment
 
@@ -149,30 +101,55 @@ Logical NOT ->    ------>  When its true it returns false
 */
 
 
+//Condintional Statements
 
-Condinational Statements
+let age =6; 
 
-let color; 
-if(mode === "dark-mode"){
-    //some code
+if(age>=18){  //If Condition get's true this block gets executed
+    console.log("You're Eligible");
+}
+else{ //Otherwise this block get's executed
+    console.log("You're Not Eligible");
+}
+
+
+let num = 3;
+
+if(num%2===0){
+    console.log("Even")
 }
 else{
-    //some code
+    console.log("Odd")
+
 }
 
 
 
 
-Ternary Operator
 
-condtion ? true Output : false Output
-let res = age > 18 ? "Adult" : Not Adult 
+if(num>10){
+    console.log("Big")
+}
+else if(num>20){
+    console.log("Bigger")
+
+}
+else if(num>30){
+    console.log("Biggest")
+}
+else{
+    console.log("Smaller")
+}
 
 
+//Ternary Opertor
 
-Switch Statements
+let res = age > 18 ? "Adult" : "Not Adult";
 
-already known
+console.log(res)
+
+
+//Switch statements
 
 
 const expr = 'Papayas';
