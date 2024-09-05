@@ -188,3 +188,49 @@ switch (expr) {
   default:
     console.log(`Sorry, we are out of ${expr}.`);
 }
+
+
+
+
+
+
+************************Chapter-3 Loops in JavaScript******************************
+Used to excute a code again and again
+
+1)For loop      for(value; condition; updation)
+
+
+2)While loop    let i=1 <--initialization
+                while(i<=5){ <----Condition
+                  //some code
+                  i++;  <--- Updation
+                }
+
+
+3)Do-While loop  let i=20; <----Initialization
+                 do{
+                  console.log("Apna College");
+                  i++; <--Updation
+                 }while(i<=10);  <----Condition
+
+
+
+
+
+Infinite loop
+We should never do infinite loop in programming. This consumes lot of memory and system can be crashed
+
+
+
+
+for of loop
+
+        variable   strings and arrays
+         |         |
+         v         v
+for(let val of StrVar){
+  console.log(val);
+}
+
+
+
