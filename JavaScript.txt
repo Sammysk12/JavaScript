@@ -319,7 +319,7 @@ syntax =>
  ];
 
 
- //array methods
+ //array Properties
 
 //prints the array
 console.log(arr1);
@@ -330,9 +330,6 @@ console.log(arr1.length);
 //returns type of array which is object
 console.log(typeof(arr1));
 
-//reverses the arrray
-// arr1 =arr1.reverse();
-console.log(arr1);
 
 
 //Array indices
@@ -366,3 +363,25 @@ for(let i=0 ; i<numPlate.length; i++){
 }
 
 
+Array methods
+
+
+//reverses the arrray
+// arr1 =arr1.reverse();
+console.log(arr1);
+
+//Add to end
+//arr1.push()
+
+//Delete from end and returns
+//arr1.pop()
+
+//Converts array to string
+//arr1.toString():
+
+
+//concat 2 arrays
+//Unshift => Adds to start
+//shift => delete or removes from start
+//slice = Slices the array and it doesnt change the orignal array
+//splice = change the orignal array (add, remove, replace)
