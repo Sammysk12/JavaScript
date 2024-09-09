@@ -385,3 +385,46 @@ console.log(arr1);
 //shift => delete or removes from start
 //slice = Slices the array and it doesnt change the orignal array
 //splice = change the orignal array (add, remove, replace)
+
+
+
+
+
+***********************Functions in JavScript****************
+
+Functions:
+Functions are block of code in which that block of code performs a spefic task and it can be invoked(called) whenever it needed
+
+
+
+*Function Definition
+
+function functionName(){
+  //some code
+}
+function functionName(param 1, param 2){
+  //some code
+
+}
+
+
+
+*Function call
+functionName();
+
+
+
+function myFunction(msg){
+                    ^^^======parameter
+    console.log(msg)
+                
+}
+
+
+myFunction("I love JS);
+               ^^
+               ========= Argument
+
+
+
+
