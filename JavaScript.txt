@@ -394,7 +394,12 @@ console.log(arr1);
 
 Functions:
 Functions are block of code in which that block of code performs a spefic task and it can be invoked(called) whenever it needed
+//function can take parameters and can return value
 
+
+//Arrow functions
+//Arrow funtions are introduced in Modern Javascript to simplify the funtions concept
+//Anonymus function can be also written
 
 
 *Function Definition
@@ -425,6 +430,59 @@ myFunction("I love JS);
                ^^
                ========= Argument
 
+// parameters are local variable scope and cannot be accessed outside this block
+
+
+**forEach Loop in Arrays
+//It is a method
+//Used with the arrays and strings
+
+**Functions can be passed as a parameter in JavaScript
+
+arr.forEach(callbackFunction)
+
+
+//callback function
+
+function abc(){              |
+  console.log("Hello");      |
+}                            |
+                             |=========> This is valid.
+funtion myFunc (abc) {       |
+    return abc;              |
+}                            |
 
 
 
+Higher order functions/methods
+
+It uses a different function as a paramter or they return value as a function is called as Higher order functions
+
+
+
+
+//Some more array methods
+
+//Map Method
+
+It returns a new array as a output in array methods
+arr.map((val) = {
+  //some code
+})
+
+
+//Filter method
+// filter out array on a given condition
+arr.filter((val) =>{
+  //some code
+})
+
+
+
+
+
+
+******3 Musketeers of Web Development*******
+1)HTML - Skeleton of a webpage
+2)CSS  - Sytling of the website for asthetics and looks
+3)JavaScript - Adds logic to the web page

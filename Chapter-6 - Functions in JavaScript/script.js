@@ -66,3 +66,51 @@ const function2= (word) =>{
 
 
 function2("Sammy");
+
+
+
+
+let arr1 = [1,2,3,4,5]
+
+// arr1.forEach(function printVal(val){ //value at each index
+//         console.log(val)
+// })
+
+
+// let cityNames = ["Pune", "Solapur","Mumbai", "Kolhapur"]
+// cityNames.forEach((pval) =>{
+//     console.log(pval);
+// })
+
+
+//Some more array methods
+
+//Map Method
+
+let newArr = arr1.map((val) => {
+    return val*val*val;
+});
+
+console.log(newArr)
+
+
+//Filter method
+// filter out array on a given condition
+
+let evenArr = arr1.filter((val) => {    
+    return val%2 ==0;
+});
+
+
+console.log(evenArr)
+
+
+// Reduce method 
+//returns a single value
+//for e.g calculate sum
+
+let sumofArray = arr1.reduce((res, val) =>{
+    return res + val;
+})
+
+console.log(sumofArray)
