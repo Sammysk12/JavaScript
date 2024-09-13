@@ -486,3 +486,48 @@ arr.filter((val) =>{
 1)HTML - Skeleton of a webpage
 2)CSS  - Sytling of the website for asthetics and looks
 3)JavaScript - Adds logic to the web page
+
+
+
+Coding in Separate files 
+
+1. Increases readability
+2. Increases modularilty
+
+
+
+
+Window Objects
+it represents an open window in a browser.
+It is created by browser automatically not by JavaScript.
+It is a global objects with way more properties& methods
+
+
+
+
+*********************DOM - Document Object Model****************
+>>>DOM Manipulation
+
+selecting with ID
+document.getElementById("MyId"); //return value specific to the id which we have given
+
+selectiong with class
+document.getElementsByClassName("myClass);
+
+Selecting with tag
+document.getElementsByTagName("p") // Tag means HTML tag.
+
+
+**DOM Properties**
+1.
+.tagName : Returns the tag used for elements
+
+2.
+innerText : Returns the text content of the element and all its children
+e.g parent, child, siblings nodes 
+
+3.
+innerHTML : Retunrs the text inside with the HTML Tags
+
+4.
+textcontent : Returns the inside text/content with the hidden element
