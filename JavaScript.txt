@@ -531,3 +531,22 @@ innerHTML : Retunrs the text inside with the HTML Tags
 
 4.
 textcontent : Returns the inside text/content with the hidden element
+
+
+
+
+>>>Accessing the attribute value
+
+getAttribute(attr) //to get the attribute value
+
+setAttribute(attr, value) // to set the attribute value
+
+
+>>>for Changing style values
+
+>>>>Insert elements
+//for creating 
+let el = document.createElement("button")
+
+node.append(el) //adds at the end of the node
+

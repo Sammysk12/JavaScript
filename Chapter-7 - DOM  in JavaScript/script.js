@@ -40,6 +40,44 @@
 // console.dir(head1);
 
 
-let div = document.querySelector("div");
+// let div = document.querySelector("div");
+// console.log("div");
 
-console.dir(div);
+
+
+//Accessing attributes and changing its values
+let ul = document.querySelector("ul");
+
+let ul1 = ul.getAttribute("ul");
+console.log(ul1)
+
+console.log(ul.setAttribute("class", "fruits"));
+
+let div = document.querySelector("div");
+// console.log("div");
+
+
+div.style.backgroundColor ="red";
+
+
+let newBtn = document.createElement("button");
+newBtn.innerText = "Click Me!";
+console.log(newBtn);
+
+//adds at the end
+div.append(newBtn);
+
+//adds at the start
+div.prepend(newBtn);
+
+//adds before the node (outside)
+div.before(newBtn);
+
+//adds after the node (outside)
+div.after(newBtn);
+
+
+let heading1 = document.createElement("h1");
+heading1.innerText = "Hi! ";
+
+div.append(heading1)
