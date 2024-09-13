@@ -27,3 +27,22 @@ for(let val of div){
     val.innerText = `New val ${i}`;
     i++;
 }
+
+//Q3
+//Add button in div at start without touchinh HTMl and give bg color red and txt color white
+let btn1 = document.createElement("button");
+btn1.innerText = "Click me!"
+btn1.style.backgroundColor = "red"
+btn1.style.color = "white";
+
+document.querySelector("body").prepend(btn1);
+
+
+// Q2
+// Add a para and change styling by changing its class name
+let para = document.querySelector(".fir");
+// para.setAttribute("class", "sec");
+para.classList.add("sec")
+
+
+
