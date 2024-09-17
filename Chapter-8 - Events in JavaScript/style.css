@@ -1,0 +1,15 @@
+div {
+    height: 100px;
+    width: 100px;
+background: #bf0505;
+border-top-left-radius: 3px;
+}
+
+button{
+    height: 2rem;
+    width: 4rem;
+    background: black;
+    color: white;
+    border: 0px solid ;
+    border-radius: 3px;
+}

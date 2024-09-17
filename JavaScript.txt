@@ -366,7 +366,7 @@ for(let i=0 ; i<numPlate.length; i++){
 Array methods
 
 
-//reverses the arrray
+//reverses the array
 // arr1 =arr1.reverse();
 console.log(arr1);
 
@@ -393,13 +393,13 @@ console.log(arr1);
 ***********************Functions in JavScript****************
 
 Functions:
-Functions are block of code in which that block of code performs a spefic task and it can be invoked(called) whenever it needed
+Functions are block of code in which that block of code performs a specific task and it can be invoked(called) whenever it needed
 //function can take parameters and can return value
 
 
 //Arrow functions
-//Arrow funtions are introduced in Modern Javascript to simplify the funtions concept
-//Anonymus function can be also written
+//Arrow functions are introduced in Modern JavaScript to simplify the functions concept
+//Anonymous function can be also written
 
 
 *Function Definition
@@ -511,7 +511,7 @@ It is a global objects with way more properties& methods
 selecting with ID
 document.getElementById("MyId"); //return value specific to the id which we have given
 
-selectiong with class
+selecting with class
 document.getElementsByClassName("myClass);
 
 Selecting with tag
@@ -550,3 +550,122 @@ let el = document.createElement("button")
 
 node.append(el) //adds at the end of the node
 
+
+
+
+
+
+***********Events************
+Interesting changes
+it can be genrated by user access and environment
+
+mouse events( click, double click, mouseover(hover))
+
+keyboard events( ket press, keyup, keydown)
+
+form events(submits)
+
+event handling 
+event handling is the process in which we can perform an action in a webpage or change its state when a user interacts with the interface
+we can track changes
+>>inline event handling 
+>>using functions  -- More priority
+
+
+event object
+it knows already about the events
+it saves all the event properties in memory
+
+
+event listeners
+
+node.eventListners(event, callback)
+multiple eventListners can be added for one element
+
+node.removeEventListner(event, callback)
+
+
+
+***************Classes and Objects******************* 
+Object is an entity having state and behaviour
+
+
+prototypes in JS
+object.__proto__ = employee;
+if object and prototype has same methods, the object methods are used.
+
+Classes in JS
+classes is a blueprint in JavaScript. which helps to construct and object.
+
+syntax: 
+
+class MyClass {
+  
+  constructor(){
+
+  }
+
+  method1(){
+
+  }
+
+  method2(){
+
+  }
+
+}
+
+
+let ObjName = new Myclass();
+We can use classes to reduce coding. 
+We can create infinite indivisual objects using Classes
+
+>>>constructor
+constructor is a special method in JS
+it helps to build object
+
+Inheritance in JS
+Inheritance is passing down the parent properties to child 
+
+class Parent {
+
+}
+
+class Child extends Parent {
+
+}
+
+if child and parent have same methods the child method gets more priority
+
+>>>Super Keyword
+In case of calling parent class constructor we have to super keyword.
+to invoke parent class constructor we use the super keyword.
+
+*super.methodName();
+
+
+>>>Error handling in JS
+When a error occurs in a code that code stops working immediately.
+That's why error handling is introduced.
+syntax: 
+
+try {
+  //some code which we are not sure it will give error or not
+  catch(err);
+}
+catch{
+  console.log(err)
+}
+
+
+
+*********Callback functions**********
+
+Synchronous programming
+Just one by one 
+
+Asynchronous programming
+Due to synchronous programming, A particular block of code gets very much time to run thats why it there delay in UI that's why asynchronous programming is used in JS
+It allows next code execute without waiting for it
+
+setTimeout(functionName, the time)
