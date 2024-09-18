@@ -1,0 +1,16 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+.fir{
+    background-color: white;
+    color: black;
+    font-style: italic;
+}
+
+.sec{
+    background-color: green;
+}

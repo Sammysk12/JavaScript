@@ -33,4 +33,28 @@ class Child extends Parent{
 
 let sam = new Child();
 
-console.log(sam)
+console.log(sam);
+
+
+
+
+//Error handling
+//Sometimes we get error in code JavaScript thats why we have this concept called error handling 
+// we can actually put the code in side the try catch block we avoid the stoppage in the code
+
+let a = 5 ;
+let b = 4 ;
+
+console.log(a+b);
+console.log(a+b);
+
+try{
+    console.log(a+c);
+
+}catch(err){
+console.log(err)
+}
+console.log(a+b);
+console.log(a+b);
+console.log(a+b);
+console.log(a+b);
