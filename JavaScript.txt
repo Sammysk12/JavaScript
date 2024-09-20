@@ -669,3 +669,89 @@ Due to synchronous programming, A particular block of code gets very much time t
 It allows next code execute without waiting for it
 
 setTimeout(functionName, the time)
+
+
+>>>callbacks
+It is arguments to an another function
+
+
+//callback hell
+//it is callback nesting (pyramid structure in callbacks) thats why it is difficult to understand
+To solve callback hells there are promises
+We can use callback hells but not on deep level
+
+
+//promises
+It is an Object in JS
+It is a eventual completion of task.
+Resolve and rejects these 2 functions are provided by the JavaScript in promises
+resolve and reject are 2 callback functions provided by JavaScript
+
+3 states are there in Promise
+1. Fullfilled (Completed)
+2. Pending (Waiting)
+3. Rejected (Cancelled)
+
+
+//syntax 
+
+let promise = new Promise((resolve, reject) => {....})
+                          |               |
+                          \---------------/
+                                  v
+                       Function with 2 handlers
+
+
+Promises
+
+.then() & .catch()
+
+promise.then((res) => {....})
+
+promise.catch((err) => {....})
+
+
+
+//Promise chaining
+nesting of promises is called as promise chaining
+
+
+//This is the actual promise chaining
+getData(1)
+.then((res) => {
+    return getData(2);
+})
+.then((res) =>{
+    return getData(3);
+})
+.then((res) =>{
+    console.log(res);
+});
+
+
+//aync await
+
+//async functiopn 
+
+async function myFunc(params) {
+  console.log("Hello!"); 
+}
+
+
+//await keyword
+
+// await pauses the execution of its async function until the promise is settled
+
+
+//Async-await
+
+// async function getAllData(params) {
+//   await getData(1);
+//   await getData(2);
+//   await getData(3);
+// }
+
+
+//IIFE: Immediately Invoked Function Expression
+// Immediately invoking function without calling it 
+// One time use only
